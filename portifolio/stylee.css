@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #3cf;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+
+}
+
+.into-content {
+    position: absolute;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+
+}
+
+#intro {
+
+    display: flex;
+    background: url("images/child.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
+.intro-content {
+    max-width: 600px;
+
+}
+
+.intro-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.intro-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.intro-content p {
+    font-size: 16px;
+}
+
+.Diane {
+    color: black;
+}
+
+#about {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+.about-content h1 {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-size: 16px;
+
+}
+
+#skills {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-color: black;
+
+}
+
+.skills-content h2 {
+
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.skills-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.skills-content p {
+
+    font-size: 16px;
+}
+
+#contact {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-color: green;
+
+}
+.contact-content h2{
+
+    font-size: 32px;
+    font-weight: 700;
+}
+.contact-content h1{
+
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contact-content p{
+
+    font-size: 16px;
+    
+} 
+.contact1content h1{
+
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contact1contentp{
+    font-size: 16px;
+}
